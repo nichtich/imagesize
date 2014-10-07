@@ -1,0 +1,35 @@
+#!/usr/bin/env perl
+
+our $VERSION = '0.01';
+
+use App::imagesize;
+my $app = App::imagesize->new_from_args(@ARGV);
+exit $app->run;
+
+__END__
+
+=head1 NAME
+
+imagesize - ...
+
+=head1 SYNOPSIS
+
+...
+
+=head1 COMMANDS
+
+=over 4
+
+=item ...
+
+=back
+
+=head1 SEE ALSO
+
+L<App::imagesize>
+
+=head1 COPYRIGHT
+
+Copyright 2014- Jakob Voß
+
+=cut
